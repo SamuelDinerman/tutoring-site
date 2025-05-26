@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #222;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
